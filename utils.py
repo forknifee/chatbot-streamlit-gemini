@@ -30,7 +30,7 @@ generation_config = {
     "response_mime_type": "application/json",
 }
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash", generation_config=generation_config
+    model_name="gemini-flash-latest", generation_config=generation_config
 )
 
 # Define translations
